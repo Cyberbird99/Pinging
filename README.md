@@ -1,4 +1,4 @@
-ServersPinger (checking to see if it's live)
+ServersPinger (checking to see if it's online)
 This ping is not like pinging Ips in terminal 
 but it's a check via Windows Task Schedular
 
