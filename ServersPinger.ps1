@@ -36,7 +36,7 @@ foreach($Server in $Servers){
             $Body="<p>$ServerName is now up at $DateTime</p>"           
         }
     }else{
-        if($LastStatus -eq "Status"){
+        if($LastStatus -eq "Success"){
             Write-Output "$ServerName is now down"
             $Server.DownSince=$DateTime
             $server.LastDownAlertTime=$DateTime
